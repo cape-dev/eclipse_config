@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='EclEmma' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1351264564169'/>
+    <property name='p2.compressed' value='true'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='9'>
+    <artifact classifier='osgi.bundle' id='org.jacoco.core' version='0.6.0.201210061924'>
+      <properties size='6'>
+        <property name='artifact.size' value='126043'/>
+        <property name='download.size' value='126043'/>
+        <property name='download.md5' value='8eadbf2539fdc46260245b29e11955b4'/>
+        <property name='maven-groupId' value='org.jacoco'/>
+        <property name='maven-artifactId' value='org.jacoco.core'/>
+        <property name='maven-version' value='0.6.0.201210061924'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jacoco.report' version='0.6.0.201210061924'>
+      <properties size='6'>
+        <property name='artifact.size' value='129376'/>
+        <property name='download.size' value='129376'/>
+        <property name='download.md5' value='5a844a4accaa3e715823d4664a2d1b6e'/>
+        <property name='maven-groupId' value='org.jacoco'/>
+        <property name='maven-artifactId' value='org.jacoco.report'/>
+        <property name='maven-version' value='0.6.0.201210061924'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jacoco.agent' version='0.6.0.201210061924'>
+      <properties size='6'>
+        <property name='artifact.size' value='162718'/>
+        <property name='download.size' value='162718'/>
+        <property name='download.md5' value='f3b1b83304d939e1b2c1fe0c9dbd34cf'/>
+        <property name='maven-groupId' value='org.jacoco'/>
+        <property name='maven-artifactId' value='org.jacoco.agent'/>
+        <property name='maven-version' value='0.6.0.201210061924'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.mountainminds.eclemma.asm' version='2.2.0.201210261515'>
+      <properties size='5'>
+        <property name='artifact.size' value='215860'/>
+        <property name='download.size' value='232934'/>
+        <property name='maven-groupId' value='com.mountainminds.eclemma'/>
+        <property name='maven-artifactId' value='com.mountainminds.eclemma.asm'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.mountainminds.eclemma.doc' version='2.2.0.201210261515'>
+      <properties size='5'>
+        <property name='artifact.size' value='256050'/>
+        <property name='download.size' value='263294'/>
+        <property name='maven-groupId' value='com.mountainminds.eclemma'/>
+        <property name='maven-artifactId' value='com.mountainminds.eclemma.doc'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.mountainminds.eclemma.feature' version='2.2.0.201210261515'>
+      <properties size='6'>
+        <property name='artifact.size' value='6043'/>
+        <property name='download.size' value='11025'/>
+        <property name='maven-groupId' value='com.mountainminds.eclemma'/>
+        <property name='maven-artifactId' value='com.mountainminds.eclemma.feature'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.mountainminds.eclemma.ui' version='2.2.0.201210261515'>
+      <properties size='5'>
+        <property name='artifact.size' value='220445'/>
+        <property name='download.size' value='241610'/>
+        <property name='maven-groupId' value='com.mountainminds.eclemma'/>
+        <property name='maven-artifactId' value='com.mountainminds.eclemma.ui'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.mountainminds.eclemma.core' version='2.2.0.201210261515'>
+      <properties size='5'>
+        <property name='artifact.size' value='89186'/>
+        <property name='download.size' value='99822'/>
+        <property name='maven-groupId' value='com.mountainminds.eclemma'/>
+        <property name='maven-artifactId' value='com.mountainminds.eclemma.core'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.mountainminds.eclemma.debug.ui.compatibility' version='2.2.0.201210261515'>
+      <properties size='5'>
+        <property name='artifact.size' value='2252'/>
+        <property name='download.size' value='7194'/>
+        <property name='maven-groupId' value='com.mountainminds.eclemma'/>
+        <property name='maven-artifactId' value='com.mountainminds.eclemma.debug.ui.compatibility'/>
+        <property name='maven-version' value='2.2.0-SNAPSHOT'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>
